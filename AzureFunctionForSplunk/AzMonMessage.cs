@@ -70,11 +70,8 @@ namespace AzureFunctionForSplunk
 
         public string GetSplunkEventFromMessage()
         {
-            ExpandoObject o = new ExpandoObject();
-            ((IDictionary<String, Object>)o).Add("sourcetype", SplunkSourceType);
-            ((IDictionary<String, Object>)o).Add("time", unixTime().ToString("0.000"));
-            ((IDictionary<String, Object>)o).Add("event", Message);
-            string json = Newtonsoft.Json.JsonConvert.SerializeObject(o);
+           
+            string json = Newtonsoft.Json.JsonConvert.SerializeObject(Message);
 
             return json;
         }
