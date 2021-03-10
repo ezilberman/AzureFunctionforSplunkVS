@@ -31,6 +31,6 @@
   "MICROSOFT.STREAMANALYTICS/STREAMINGJOBS/EXECUTION": "amdl:sa:jobs:execution",
   "MICROSOFT.STREAMANALYTICS/STREAMINGJOBS/AUTHORING": "amdl:sa:jobs:authoring",
   "MICROSOFT.SECURITYGRAPH/ALERT": "amdl:securitygraph:alert",
-  "MICROSOFT.AADIAM/AUDIT": "amdl:aadal:audit",
-  "MICROSOFT.AADIAM/SIGNIN": "amdl:aadal:signin"
+  "MICROSOFT.AADIAM/AUDITLOGS": "amdl:aadal:audit",
+  "MICROSOFT.AADIAM/SIGNINLOGS": "amdl:aadal:signin"
 }
